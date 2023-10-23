@@ -7,7 +7,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     background-color: white;
-    background-image: url(./images/BlueBackground.png);
+    background-image: url(images/BlueBackground.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -86,84 +86,84 @@ a:active {
 }
 
 #blog-1{
-    background-image: url("./images/Week1.png");
+    background-image: url("images/Week1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
 }
 
 #blog-2{
-    background-image: url("./images/Week2.png");
+    background-image: url("images/Week2.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
 }
 
 #blog-3{
-    background-image: url("./images/Week3.png");
+    background-image: url("images/Week3.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
 }
 
 #blog-4{
-    background-image: url("./images/Week4.png");
+    background-image: url("images/Week4.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
 }
 
 #blog-5{
-    background-image: url("./images/Week5.png");
+    background-image: url("images/Week5.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
 }
 
 #blog-6{
-    background-image: url("./images/Week6.png");
+    background-image: url("images/Week6.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
 }
 
 #blog-7{
-    background-image: url("./images/Week7.png");
+    background-image: url("images/Week7.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
 }
 
 #blog-8{
-    background-image: url("./images/Week8.png");
+    background-image: url("images/Week8.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
 }
 
 #blog-9{
-    background-image: url("./images/Week9.png");
+    background-image: url("images/Week9.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
 }
 
 #blog-10{
-    background-image: url("./images/Week10.png");
+    background-image: url("images/Week10.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
 }
 
 #blog-11{
-    background-image: url("./images/Week11.png");
+    background-image: url("images/Week11.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
 }
 
 #blog-12{
-    background-image: url("./images/Week12.png");
+    background-image: url("images/Week12.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
