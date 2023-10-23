@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
     background-color: white;
-    background-image: url(/images/BlueBackground.png);
+    background-image: url(../images/BlueBackground.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 50px;
