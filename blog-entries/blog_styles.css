@@ -22,7 +22,7 @@ body {
 nav{
     display: flex;
     flex-basis: 30%;
-    border: 1px solid blue;
+    font-family: "Times New Roman", Times, serif;
     justify-content: space-evenly;
 }
 
@@ -48,7 +48,6 @@ header{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid purple;
     width: 100%;
 }
 
@@ -56,20 +55,17 @@ header #logo{
     /* display: flex; */
     justify-content: flex-start;
     flex-basis: 30%;
-    border: 1px solid blue;
 }
 
 header #homelink{
     display: flex;
     justify-content: flex-start;
-    border: 1px solid blue;
 }
 
 header #logo img{
     height: 20%;
     max-height: 100px;
     min-height: 50px;
-    border: 1px solid blue;
 }
 
 h2 {
@@ -86,18 +82,18 @@ h3 {
     font-weight: light;
     color: #5079E2; 
     margin: 0px;
+    margin-top: 10px;
 }
 
 body{
     font-size: 24px;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: initial;
-    color: #3E6CE0; 
+    color: #5068A6; 
 }
 
 .spacer{
     flex-basis: 30%;
-    border: 1px solid blue;
 }
 
 #main{
@@ -108,7 +104,6 @@ body{
     max-width: 1200px;
     min-width: 300px;
     padding: 20px; 
-    border: 1px solid red;
 }
 
 .entry{
@@ -116,7 +111,10 @@ body{
     flex-flow: column nowrap;
     align-items: center;
     justify-content: space-evenly;
-    border: 1px solid blue;
+}
+
+.entry .nametag{
+    width: 50%;
 }
 
 .entry img{
@@ -139,7 +137,7 @@ body{
 }
 
 /* -------- adjusted layout for phones -------- */
-@media only screen and (max-width: 558px){
+@media only screen and (max-width: 580px){
     header{
         flex-flow: column nowrap;
     }
@@ -153,6 +151,9 @@ body{
         flex-basis: 100%;
         gap: 10px;
         font-size: 16px;
+    }
+    .entry .nametag{
+        width: 100%;
     }
     .entry img{
         width: 100%;
