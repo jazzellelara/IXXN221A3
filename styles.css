@@ -17,7 +17,6 @@ body {
     flex-flow: column nowrap;
     /* justify-content: center; */
     align-items: center;
-    border: 1px solid green;
 }
 
 header{
@@ -25,43 +24,43 @@ header{
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    border: 1px solid blue;
     flex-basis: auto;
     width: 100%;
     max-width: 1200px;
     min-width: 450px;
+    margin-top: 20px;
 }
 
 header img{
     width: 40%;
-    /* max-height: 200px; */
-    /* min-height: 100px; */
+    min-width: 300px;
 }
 
 h1 {
     font-size: 6vw;
-    font-family: "Optima", Times, serif;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
    }
 
 a:link { 
     text-decoration: none; 
-    color: #D9E7FA; 
-    text-shadow: 3px 3px 5px #6F92E8, -3px -3px 5px #6F92E8;
+    color: #6F92E8; 
+    text-shadow: 2px 2px 4px #ffffff, -2px -2px 4px #ffffff;
 }
 a:visited { 
     text-decoration: none; 
-    color: #D9E7FA; 
-    text-shadow: 3px 3px 5px #6F92E8, -3px -3px 5px #6F92E8;
+    color: #6F92E8; 
+    text-shadow: 2px 2px 4px #ffffff, -2px -2px 4px #ffffff;
 }
 a:hover { 
     text-decoration: none; 
-    color: #6F92E8; 
-    text-shadow: 3px 3px 5px #D9E7FA, -3px -3px 5px #D9E7FA;
+    color: #8DA7EB; 
+    text-shadow: 2px 2px 4px #ffffff, -2px -2px 4px #ffffff;
 }
 a:active { 
     text-decoration: none; 
-    color: #D9E7FA; 
-    text-shadow: 3px 3px 5px #6F92E8, -3px -3px 5px #6F92E8;
+    color: #6F92E8; 
+    text-shadow: 2px 2px 4px #ffffff, -2px -2px 4px #ffffff;
 }
 
 #main{
@@ -72,15 +71,13 @@ a:active {
     min-width: 450px;
     padding: 20px; 
     flex-grow: 1;
-    gap: 10px;
-    border: 1px solid red;
+    gap: 20px;
 }
 
 .blog-entry{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
     flex-grow: 1;
     width: 30%; 
     aspect-ratio: 1/1;  
@@ -176,10 +173,10 @@ h1{
     font-weight: normal;
 }
 
-/* -------- adjusted layout for tablet -------- */
-@media only screen and (min-width: 1680px){
+/* -------- adjusted layout for wider screens -------- */
+@media only screen and (min-width: 1246px){
     h1 {
-        font-size: 100px;
+        font-size: 75px;
     }
 }
 
@@ -195,10 +192,10 @@ h1{
     #main{
         flex-flow: column nowrap;
         align-items: center;
-        gap: 0px;
+        row-gap: 20px;
     }
     h1 {
-        font-size: 16vw;
+        font-size: 70px;
     }
     .blog-entry{ 
         min-width: 100px;
